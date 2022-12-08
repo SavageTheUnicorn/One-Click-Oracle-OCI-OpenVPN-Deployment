@@ -16,8 +16,8 @@ fi
 
 # assign to
 instance_name=$1
-cpu_count=$2
-memory_in_gb=$3
+cpu_count=$1
+memory_in_gb=$1
 
 # valiate args are numbers
 re='^[0-9]+$' # regular expression - validate whole number
@@ -55,7 +55,7 @@ fi
 # STEP: Create VNet & Compute Instanece 
 # https://eclipsys.ca/launch-an-oci-instance-with-oci-cli-in-10-minutes/
 # instance_name="vpn"
-shape="VM.Standard.E2.l.Micro"
+shape="VM.Standard.E2.1.Micro"
 # cpu_count="1"
 # memory_in_gb="1"
 
