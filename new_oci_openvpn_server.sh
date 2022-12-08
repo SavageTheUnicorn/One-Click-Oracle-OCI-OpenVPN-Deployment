@@ -55,9 +55,9 @@ fi
 # STEP: Create VNet & Compute Instanece 
 # https://eclipsys.ca/launch-an-oci-instance-with-oci-cli-in-10-minutes/
 # instance_name="vpn"
-shape="VM.Standard.A1.Flex"
+shape="VM.Standard.E2.1.Micro"
 # cpu_count="1"
-# memory_in_gb="6"  
+# memory_in_gb="1"
 
 # Step: Get Tenancy / Container ID
 echo "[+] Getting Tenacy ID / Container ID"
