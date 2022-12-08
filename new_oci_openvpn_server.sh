@@ -57,7 +57,7 @@ fi
 # instance_name="vpn"
 shape="VM.Standard.A1.Flex"
 # cpu_count="1"
-# memory_in_gb="6"  
+# memory_in_gb="1"  
 
 # Step: Get Tenancy / Container ID
 echo "[+] Getting Tenacy ID / Container ID"
