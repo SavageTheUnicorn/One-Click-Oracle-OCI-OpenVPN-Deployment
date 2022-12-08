@@ -16,8 +16,8 @@ fi
 
 # assign to
 instance_name=$1
-cpu_count=$1
-memory_in_gb=$1
+cpu_count=$2
+memory_in_gb=$3
 
 # valiate args are numbers
 re='^[0-9]+$' # regular expression - validate whole number
