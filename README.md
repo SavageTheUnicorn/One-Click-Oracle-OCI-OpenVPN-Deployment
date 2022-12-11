@@ -17,8 +17,10 @@ Note that key `id_rsa` is saved to `pwd` and can be copied offline to SSH into e
 ```bash
 # curl -s https://raw.githubusercontent.com/alecmaly/One-Click-Oracle-OCI-OpenVPN-Deployment/main/new_oci_openvpn_server.sh | /bin/bash -s -- <instance_name> <cpu_count> <memory_in_gb>
 
-curl -s https://raw.githubusercontent.com/alecmaly/One-Click-Oracle-OCI-OpenVPN-Deployment/main/new_oci_openvpn_server.sh | /bin/bash -s -- openvpn-sever 1 6
+curl -s https://raw.githubusercontent.com/SavageTheUnicorn/One-Click-Oracle-OCI-OpenVPN-Deployment/main/new_oci_openvpn_server.sh | /bin/bash -s -- openvpn-sever 1 1
 ```
 
 # Notes
 - Have not tested default timeout rules for SSH, may need to configure timeout policy and/or implement whitelist ingress firewall rules?
+
+This is not working currently
